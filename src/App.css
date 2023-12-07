@@ -3,4 +3,29 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://mdbootstrap.com/img/new/fluid/nature/015.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px 60px;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 30px;
 }

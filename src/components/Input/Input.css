@@ -1,4 +1,27 @@
 input {
   padding: 15px;
   margin: 10px 0;
+  border: 1px solid grey;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+label {
+  color: gray;
+  font-size: 13px;
+}
+
+span {
+  padding: 3px;
+  font-size: 10px;
+  color: red;
+  display: none;
+}
+
+input:invalid ~ span {
+  display: block;
 }
