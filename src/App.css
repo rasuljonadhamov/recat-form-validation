@@ -1,8 +1,4 @@
 .app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.2),
       rgba(255, 255, 255, 0.3)
@@ -10,12 +6,16 @@
     url("https://mdbootstrap.com/img/new/fluid/nature/015.jpg");
   background-size: cover;
   background-position: center;
+  padding: 40px 0;
 }
 
 form {
   background-color: #fff;
   padding: 20px 60px;
   border-radius: 10px;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
 }
 
 button {

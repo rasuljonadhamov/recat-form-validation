@@ -85,7 +85,7 @@ function App() {
       type: "password",
       placeholder: "Password",
       errorMessage:
-        "Password should be 8-20 character and include at least 1 letter ,1 number and 1 special character",
+        "Password should be 8-20 character and include at least 1 letter ,1 number and 1 special character, You can not write number in the end",
       label: "Password",
       pattern:
         "(?=^.{8,}$)((?=.*d)|(?=.*W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$",
@@ -117,7 +117,7 @@ function App() {
   console.log(values);
   return (
     <div className="app">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form">
         <Header />
         {inputs.map((input) => {
           return (
